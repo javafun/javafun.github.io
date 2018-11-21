@@ -32,13 +32,13 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email:mscsharp@gmail.com
-  facebook:https://www.facebook.com/javafun
+  email: mscsharp@gmail.com?subject=I need your help
+  facebook: https://www.facebook.com/javafun
   flickr:
   github: https://github.com/javafun
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
-  linkedin:https://www.linkedin.com/in/javafun/
+  linkedin: https://www.linkedin.com/in/javafun/
   pinterest:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
