@@ -4,7 +4,6 @@ title: Sitecore seo rewrite rules
 tags:
   - sitecore
   - url rewrite
-
 comments: true
 ---
 
