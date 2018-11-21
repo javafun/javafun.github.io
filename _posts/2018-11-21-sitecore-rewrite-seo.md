@@ -4,7 +4,13 @@ title: Sitecore seo rewrite rules
 tags:
   - sitecore
   - url rewrite
+
+comments: true
 ---
+
+
+List of Sitecore SEO / Security rewrite rules I recently added to one of the project. 
+
 
 ## Lower case rule
 
