@@ -13,24 +13,7 @@ List of Sitecore SEO / Security rewrite rules I recently added to one of the pro
 
 ## Lower case rule
 
-```xml
-<rule name="Lower Case Rule" stopProcessing="true">
-  <match url="[A-Z]" ignoreCase="false" />
-  <conditions>
-    <add input="{REQUEST_METHOD}" matchType="Pattern" pattern="POST" ignoreCase="true" negate="true" />
-    <add input="{URL}" pattern="^.*\.(axd|css|js|jpg|jpeg|png|gif|txt|xml|svg|pdf)$" negate="true" ignoreCase="true" />
-  </conditions>
-  <action type="Redirect" url="{ToLower:{URL}}" />
-</rule>
-<rule name="HTTP to HTTPS redirect" stopProcessing="true">
-  <match url="(.*)" />
-  <conditions>
-    <add input="{HTTPS}" pattern="off" ignoreCase="true" />
-  </conditions>
-  <action type="Redirect" url="https://{HTTP_HOST}/{R:1}"
-      redirectType="Permanent" />
-</rule>
-```
+<script src="https://gist.github.com/javafun/751f2afea4dedf05b065f1cbadb37bfb.js"></script>
 
 ## Remove server header rule
 ```xml
