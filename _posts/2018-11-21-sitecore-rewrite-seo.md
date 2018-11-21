@@ -7,7 +7,7 @@ tags:
 comments: true
 ---
 
-![_config.yml]({{ site.baseurl }}/images/iis-1.png)
+![_config.yml]({{ site.baseurl }}/images/sitecore.png)
 List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to one of the project. 
 
 
