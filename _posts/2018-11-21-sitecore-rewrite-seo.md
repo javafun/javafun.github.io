@@ -2,8 +2,8 @@
 layout: post
 title: Sitecore seo rewrite rules
 tags:
-  - test
-  - tags: [sitecore,url rewrite]
+  - sitecore
+  - url rewrite
 ---
 
 ## Lower case rule
