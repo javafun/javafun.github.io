@@ -33,7 +33,7 @@ footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
   email: mscsharp@gmail.com?subject=I need your help
-  facebook: https://www.facebook.com/javafun
+  facebook: javafun
   flickr:
   github: https://github.com/javafun
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -43,7 +43,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: https://twitter.com/javafun
+  twitter: javafun
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
