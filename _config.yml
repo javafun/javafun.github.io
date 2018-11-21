@@ -3,17 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kiko Now
+name: Vincent Yang
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
-
-#
-# Flags below are optional
-#
+description: Technical Architect from Empired
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://en.gravatar.com/userimage/3197671/47b319510132024a22a4ee255b19ee6d.jpeg
 
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
