@@ -3,7 +3,7 @@ layout: post
 title: Uploading files will fail after ~7MB when using Windows 2008, over SSL, via a load balancer
 tags:
   - episerver
-  - certification
+  - iis
 comments: true
 ---
 
