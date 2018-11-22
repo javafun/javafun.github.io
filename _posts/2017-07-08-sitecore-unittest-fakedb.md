@@ -34,18 +34,18 @@ Lastly, you also need to copy your Sitecore license.xml file into the root of yo
 
 > NOTE: When you install the Sitecore.FakeDb package, it will automatically update the app.config file by including the license file location (see screenshot below
 
-![_config.yml]({{ site.baseurl }}/images/2017-06-07_23-40-43.png)
+![_config.yml]({{ site.baseurl }}/images/sitecorefakedb/2017-06-07_23-40-43.png)
 
 ## Sample Test (MSTest) 
 
-![_config.yml]({{ site.baseurl }}/images/2017-06-08_00-58-22.png)
+![_config.yml]({{ site.baseurl }}/images/sitecorefakedb/2017-06-08_00-58-22.png)
 
 ## NCrunch Configuration
 
 In order to run unit tests with [NCrunch](https://www.ncrunch.net), in the NCrunch Configuration window, select the tests project and configure the following settings:
 
 
-![_config.yml]({{ site.baseurl }}/images/2017-06-06_23-11-40.png)
+![_config.yml]({{ site.baseurl }}/images/sitecorefakedb/2017-06-06_23-11-40.png)
 
 ## References
 
