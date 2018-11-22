@@ -1,9 +1,8 @@
 ---
 layout: post
 title: One day Play – Create a TFS 2017 Instance On Azure Virtual Machine
-tags:
-  - sitecore
-  - url rewrite
+tags:  
+  - tfs
 comments: true
 ---
 
