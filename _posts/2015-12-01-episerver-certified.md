@@ -2,8 +2,8 @@
 layout: post
 title: EPi certified, hooray!!
 tags:
-  - sitecore
-  - unit test
+  - episerver
+  - certification
 comments: true
 ---
 
