@@ -66,3 +66,5 @@ echo “command=/export/apps/aem/publish/crx-quickstart/bin/start” >> /etc/sup
 CMD [“/usr/bin/supervisord”]
 
 ```
+
+Happy Coding! 😇
