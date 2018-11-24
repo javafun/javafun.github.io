@@ -3,6 +3,7 @@ layout: post
 title: CQ5.6.1 (Author + Publish) Docker file – CentOS
 tags:
   - docker
+  - adobe cq
 comments: true
 ---
 
