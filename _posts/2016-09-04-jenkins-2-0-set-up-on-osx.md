@@ -133,6 +133,7 @@ Execute uninstall script from terminal:
 > The ‘lib’ folder should be linking to libexec subdirectory.
 > If you install your maven via homebrew, your maven home should /usr/local/opt/maven31/libexec. (Note: maven31 is the version I installed on my mac, change this according to your local setting.)
 
+
 [Jenkins CI on OSX](https://gist.github.com/ostinelli/972cfdb4bce51d428d3b)
 
 
