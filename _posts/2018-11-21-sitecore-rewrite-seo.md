@@ -23,6 +23,10 @@ List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to on
   </conditions>
   <action type="Redirect" url="{ToLower:{URL}}" />
 </rule>
+```
+
+### Redirect to HTTPS
+```
 <rule name="HTTP to HTTPS redirect" stopProcessing="true">
   <match url="(.*)" />
   <conditions>
