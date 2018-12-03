@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sitecore seo rewrite rules
+title: Sitecore SEO/Security rewrite rules
 tags:
   - sitecore
   - url rewrite
@@ -10,8 +10,9 @@ comments: true
 ![_config.yml]({{ site.baseurl }}/images/sitecore.png)
 List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to one of the project. 
 
+## SEO rewrite rules
 
-## Lower case rule
+### Lower case rule
 
 ```xml
 <rule name="Lower Case Rule" stopProcessing="true">
@@ -31,7 +32,10 @@ List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to on
       redirectType="Permanent" />
 </rule>
 ```
-## Remove server header rule
+
+## Security rewrite rules
+
+### Remove server header rule
 
 ```xml
 <rule name="Removing server header" enabled="true">
