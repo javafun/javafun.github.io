@@ -12,7 +12,7 @@ List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to on
 
 ## SEO rewrite rules
 
-### Lower case rule
+### Lower case
 
 ```xml
 <rule name="Lower Case Rule" stopProcessing="true">
@@ -39,7 +39,7 @@ List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to on
 
 ## Security rewrite rules
 
-### Remove server header rule
+### Remove server header
 
 ```xml
 <rule name="Removing server header" enabled="true">
