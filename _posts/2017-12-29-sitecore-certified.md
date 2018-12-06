@@ -14,3 +14,4 @@ Mission accomplished before the end of year 2017 :)
 ![_config.yml]({{ site.baseurl }}/images/sitecore-certified/sitecorecertificate.png)
 
 
+Happy Coding! 😇

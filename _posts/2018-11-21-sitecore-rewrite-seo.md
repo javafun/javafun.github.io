@@ -60,3 +60,6 @@ List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to on
   <action type="Rewrite" value="max-age=31536000" />
 </rule>
 ```
+
+
+Happy Coding! 😇
