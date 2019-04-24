@@ -74,12 +74,12 @@ Secondly, you can either by adding a virtual roles in the virtual role section o
 ```
 
 ![_config.yml]({{ site.baseurl }}/images/episerver-beta-features/beta_feature_1.jpg)
-Adding a virtual roles
+_(Adding a virtual roles)_
 
+<br/>
 
 ![_config.yml]({{ site.baseurl }}/images/episerver-beta-features/beta_feature_2.jpg)
-
-Creating a role in admin view
+_(Creating a role in admin view)_
 
 ## Reference
 
