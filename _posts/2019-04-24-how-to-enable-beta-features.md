@@ -19,7 +19,7 @@ So far, there are two scenarios I had been through since Episerver introduced co
 ### Scenario 1 - Released feature
 
 
-`Serializable Cart` feature has been introduced since **10.2.0**. I won't cover this feature details here, you can check out the links in the [Reference](#Reference) section to get more details. 
+`Serializable Cart` feature has been introduced since **10.2.0**. I won't cover this feature details here, you can check out the links in the [Reference](#reference) section to get more details. 
 
 By default it is enabled for a new installation and disabled for an upgraded site. 
 
