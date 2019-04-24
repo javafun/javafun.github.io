@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to enable Episerver new and beta feature
+title: How to enable Episerver new and beta features
 tags:
   - episerver
   - beta feature
