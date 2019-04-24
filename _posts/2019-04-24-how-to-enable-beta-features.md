@@ -9,8 +9,6 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/episerver.png)
-
-
 As you might know already, Episerver has introduced continuous release process to help the customer quickly get the issue fixed and adopt the new/beta features.
 
 By default, some of these features are required to be manually turned on E.g. SerializedCarts. When it's a beta feature, you'll need to ensure the user are in the right user groups as well. This blog post will help you to quickly get them working in your website and make your experience smooth.
@@ -21,13 +19,13 @@ So far, there are two scenarios I had been through since Episerver introduced co
 ### Scenario 1 - Released feature
 
 
-**Serializable Cart** feature has been introduced since **10.2.0**. I won't cover this feature here, you can check out the links in the **Reference** section to get more details. 
+`Serializable Cart` feature has been introduced since **10.2.0**. I won't cover this feature here, you can check out the links in the **Reference** section to get more details. 
 
 By default it is enabled for a new installation and disabled for an upgraded site. 
 
 To enable this feature within your site, you have two options 
 
-Option 1 - Config
+#### Option 1 - Configuration
 
 Add the following to `ecf.app.config` file (**CMS solution, not CommerceManager**)
 
@@ -36,7 +34,7 @@ Add the following to `ecf.app.config` file (**CMS solution, not CommerceManager*
   <add feature="SerializedCarts" state="Enabled" type="Mediachase.Commerce.Core.Features.SerializedCarts,Mediachase.Commerce" />
 </Features>
 ```
-Option 2 - By code
+#### Option 2 - By code
 
 Add the following to your `InitializeModule` class
 
@@ -46,7 +44,7 @@ ServiceLocator.Current.GetInstance<IFeatureSwitch>().EnableFeature(SerializedCar
 
 ### Scenario 2 - Beta feature
 
-**CSR UI (Customer Service UI)** feature is a beta feature at the point of time of writing.
+`CSR UI (Customer Service UI)` feature is a beta feature at the point of time of writing.
 
 By default, all beta features are hidden to prevent unintentional use. To work with Beta features, you need a role defined with the name `EPiBetaUsers`
 
