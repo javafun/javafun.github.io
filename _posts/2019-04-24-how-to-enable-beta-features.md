@@ -34,7 +34,7 @@ Add the following to `ecf.app.config` file (**CMS solution, not CommerceManager*
   <add feature="SerializedCarts" state="Enabled" type="Mediachase.Commerce.Core.Features.SerializedCarts,Mediachase.Commerce" />
 </Features>
 ```
-#### Option 2 - By code
+#### Option 2 - Programmatically
 
 Add the following to your `InitializeModule` class
 
