@@ -46,6 +46,9 @@ ServiceLocator.Current.GetInstance<IFeatureSwitch>().EnableFeature(SerializedCar
 
 `CSR UI (Customer Service UI)` feature is a beta feature at the time of writing this post.
 
+![_config.yml]({{ site.baseurl }}/images/episerver-beta-features/CSR_UI_Beta.jpg)
+_(New CSR UI)_
+
 By default, all beta features are hidden to prevent unintentional use. To work with Beta features, you need a role defined with the name `EPiBetaUsers`
 
 
