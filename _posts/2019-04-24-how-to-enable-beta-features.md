@@ -44,7 +44,7 @@ ServiceLocator.Current.GetInstance<IFeatureSwitch>().EnableFeature(SerializedCar
 
 ### Scenario 2 - Beta feature
 
-`CSR UI (Customer Service UI)` feature is a beta feature at the time of writing this post.
+`CSR UI (Customer Service UI)` is a beta feature at the time of writing this post.
 
 ![_config.yml]({{ site.baseurl }}/images/episerver-beta-features/CSR_UI_Beta.jpg)
 
