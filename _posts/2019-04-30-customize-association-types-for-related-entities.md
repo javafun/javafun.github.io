@@ -20,22 +20,23 @@ Customizing Related Entities association type does't seem to be covered very wel
 4. Build solution, log in to CMS and navigate to Product's Related Entities, you'll see other types than the out-of-the-box Default type.
 ![_config.yml]({{ site.baseurl }}/images/episerver-customize-association-types/img2.jpg)
 
+
+
 ```c#
-    [InitializableModule]
-    [ModuleDependency(typeof(EPiServer.Web.InitializationModule))]
-    public class AssociationTypeInitialization : IInitializableModule
+[InitializableModule]
+[ModuleDependency(typeof(EPiServer.Web.InitializationModule))]
+public class AssociationTypeInitialization : IInitializableModule
+{
+    public void Initialize(InitializationEngine context)
     {
-        public void Initialize(InitializationEngine context)
-        {
-            var associationTypeRepository = context.Locate.Advanced.GetInstance<GroupDefinitionRepository<AssociationGroupDefinition>>();
+        var associationTypeRepository = context.Locate.Advanced.GetInstance<GroupDefinitionRepository<AssociationGroupDefinition>>();
 
-            associationTypeRepository.Add(new AssociationGroupDefinition() { Name = "cross-selling" });
-            associationTypeRepository.Add(new AssociationGroupDefinition() { Name = "upselling" });
-        }
-
-        public void Uninitialize(InitializationEngine context){}
+        associationTypeRepository.Add(new AssociationGroupDefinition() { Name = "cross-selling" });
+        associationTypeRepository.Add(new AssociationGroupDefinition() { Name = "upselling" });
     }
-      
+
+    public void Uninitialize(InitializationEngine context){}
+}
 ```
 ## Querying association types 
 
