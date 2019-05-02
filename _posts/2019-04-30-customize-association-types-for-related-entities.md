@@ -7,8 +7,8 @@ tags:
 comments: true
 ---
 
-![_config.yml]({{ site.baseurl }}/images/episerver.png)
-Customizing Related Entities association type does't seem to be covered very well in Episerver documentation. In this post, I'll quickly show you how easy this can be achieved. 
+![_config.yml]({{ site.baseurl }}/images/episerver-new.png)
+Customizing Related Entities association type does't seem to be covered very well in Episerver documentation. In this post, I'll quickly show you how easily this can be achieved. 
 
 
 ## Define custom types for Related Entities
