@@ -7,7 +7,7 @@ tags:
 comments: true
 ---
 
-![_config.yml]({{ site.baseurl }}/images/episerver.png)
+![_config.yml]({{ site.baseurl }}/images/episerver-new.png)
 Believe or not, it’s super easy to set up an empty CMS site with Commerce package in version 9. Thanks for the EPi team awesome work. In this post, I will walk you through step by step how easy to set up Commerce in EPiServer from scratch.
 
 ## Prerequisites

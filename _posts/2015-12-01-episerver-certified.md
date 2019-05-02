@@ -7,7 +7,7 @@ tags:
 comments: true
 ---
 
-![_config.yml]({{ site.baseurl }}/images/episerver.png)
+![_config.yml]({{ site.baseurl }}/images/episerver-new.png)
 A sigh of relief, I finally got my ECD (EPiServer Certificated Developer) yesterday. My 2015 year-end goal achieved. Thank you everyone who supports me.
 
 
