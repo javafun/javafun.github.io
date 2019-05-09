@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Resolving missing large thumbnail in Commerce Catalog
+title: Resolving large thumbnail missing in Commerce Catalog
 tags:
   - episerver
   - episerver commerce
