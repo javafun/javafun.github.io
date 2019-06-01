@@ -82,7 +82,7 @@ Export-Certificate -Cert Cert:\LocalMachine\My\C3DEE647F579CBFC86E14D5924D93527F
 
 
 * [How to create self signed certificate with powershell](http://woshub.com/how-to-create-self-signed-certificate-with-powershell/){:target="_blank"}
-
+* [How to Enable IdpInitiatedSignon Page In AD FS 2016](https://blogs.technet.microsoft.com/rmilne/2017/06/20/how-to-enable-idpinitiatedsignon-page-in-ad-fs-2016/)
 * [ADFS Passive Request = “There are no registered protocol handlers”](https://serverfault.com/questions/824303adfs-passive-request-there-are-no-registered-protocol-handlers){:target="_blank"}
 
 * [How to setup Microsoft Active Directory Federation Services [AD FS]](https://www.virtuallyboring.com/how-to-setup-microsoft-active-directory-federation-services-adfs/){:target="_blank"}
