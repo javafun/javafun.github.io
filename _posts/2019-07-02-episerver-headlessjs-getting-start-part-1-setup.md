@@ -9,7 +9,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/episerver-new.png)
-This is part 1 of Episerver Headless JS blog post series. In this post, I'll try cover everything you need to get `Content Delivery API` running on your local development from scratch. 
+This is part 1 of Episerver Headless JS blog post series. In this post, I'll try to cover everything you need to get `Content Delivery API` running on your local development from scratch. 
 
 
 ## Set up demo instance
