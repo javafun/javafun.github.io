@@ -8,7 +8,7 @@ tags:
 comments: true
 ---
 
-![_config.yml]({{ site.baseurl }}/images/episerver-new.png)
+![_config.yml]({{ site.baseurl }}/images/headlessjs-1/headless.png)
 This is part 1 of Episerver Headless JS blog post series. In this post, I'll try to cover everything you need to get `Content Delivery API` running on your local development from scratch. 
 
 
@@ -52,7 +52,7 @@ If you need to use On-page editing `(data-epi-edit="YourProperty")` with client 
 ```
 
 ## Configure required permissions
-Lastly, you'll need to ensure `contentapiread` role has been granted read permissions to all contents you want to expose through the content delivery API.
+Lastly, you'll need to ensure `contentapiread` role has been granted read permission to all contents you want to expose through the content delivery API.
 
 ![_config.yml]({{ site.baseurl }}/images/headlessjs-1/contentapiread_permission.jpg)
 
