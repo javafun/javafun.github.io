@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Episerver Headless JS - Part 1 :Setup
+title: Episerver headless js - part 1 :setup
 tags:
   - episerver
   - content delivery api
