@@ -4,7 +4,7 @@ title: Episerver Headless JS - Part 1 :Setup
 tags:
   - episerver
   - content delivery api
-  - headless  
+  - headless js
 comments: true
 ---
 
