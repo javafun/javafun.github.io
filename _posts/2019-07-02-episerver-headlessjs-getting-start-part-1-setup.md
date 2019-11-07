@@ -19,9 +19,9 @@ In this demo, I assume you have `Episerver CMS Visual Studio extension` installe
 
 2. Install the `EPiServer.ContentDeliveryApi` packages, and this package has [dependencies on the other three content delivery packages](https://world.episerver.com/documentation/developer-guides/content-delivery-api/installing/) - `EPiServer.ContentDeliveryApi.OAuth`, `EPiServer.ContentDeliveryApi.Cms` and `EPiServer.ContentDeliveryApi.Core`.
 
-3. Add the following lines to your container initialization module, this configuration will enable client js `anonymously` consuming the API.   
+3. Add the following lines to your container initialization module, this configuration will enable client js `anonymously` consuming the API. 
     ```csharp
-      [InitializableModule]
+      [ModuleDependency(typeof(ContentApiCmsInitialization))]
       public class DependencyResolverInitialization : IConfigurableModule
       {
           public void ConfigureContainer(ServiceConfigurationContext context)
@@ -35,6 +35,9 @@ In this demo, I assume you have `Episerver CMS Visual Studio extension` installe
           }
       }
     ```
+> <span style="color:#e6b219;">**Caution:**</span>
+> 1. If you missed this step, you'll get login form when request the API from your REST client.
+> 2. `ModuleDependency` needs to be set to `ContentApiCmsInitialization`.
 
 ## Adjust virtual role configuration
 If you need to use On-page editing `(data-epi-edit="YourProperty")` with client side rendering feature in the CMS, you'll need to enable the [beta feature](https://world.episerver.com/documentation/Items/Installation-Instructions/beta-features/).
