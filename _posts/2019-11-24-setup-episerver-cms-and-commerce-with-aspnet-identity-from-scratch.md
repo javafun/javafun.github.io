@@ -62,7 +62,7 @@ In this blog post, I will walk you through from beginning on setup CMS Commerce 
 1. Install `EPiServer.CMS.UI.AspNetIdentity` package into the Commerce project. 
 2. Install `EPiServer.ServiceLocation.StructureMap` package into the Commerce project.
 3. Create an Owin startup named [Startup.cs](https://gist.github.com/javafun/a921d94163e327e54154b37de6130b33.) under root of Commerce project.    
-3. Execute the [SQL script](https://gist.github.com/javafun/ab97de51a74b92566f803624d22c3468) will create default user `admin@example.com` with password `store` in AspNet Identity table  
+3. Execute the [SQL script](https://gist.github.com/javafun/ab97de51a74b92566f803624d22c3468){:target="_blank"} will create default user `admin@example.com` with password `store` in AspNet Identity table  
 4. Create `Overrides` folder under root and create the following web form page/control under Overrides folder. Commerce Manager is a legacy WebForm system, and coupled with old ASP.NET membership provider by default. What we're doing here is to create custom version of login/logut page and later in the code-behind file we can overwrite with AspNet Identity implementation.
   * [Login.aspx](https://gist.github.com/javafun/29837dfdd1caa069908af9df1348eea4#file-login-aspx){:target="_blank"}
   * [Login.aspx.cs](https://gist.github.com/javafun/29837dfdd1caa069908af9df1348eea4#file-login-aspx-cs){:target="_blank"}
