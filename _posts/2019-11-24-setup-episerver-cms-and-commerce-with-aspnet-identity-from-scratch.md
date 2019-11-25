@@ -67,7 +67,9 @@ In this blog post, I will walk you through from beginning on setup CMS Commerce 
   * [Login.aspx](https://gist.github.com/javafun/29837dfdd1caa069908af9df1348eea4#file-login-aspx){:target="_blank"}
   * [Login.aspx.cs](https://gist.github.com/javafun/29837dfdd1caa069908af9df1348eea4#file-login-aspx-cs){:target="_blank"}
   * [Login.aspx.designer.cs](https://gist.github.com/javafun/29837dfdd1caa069908af9df1348eea4#file-login-aspx-designer-cs){:target="_blank"}
+  * [Logout.aspx](https://gist.github.com/javafun/ba0340d4cbbcba3e2397cf1d5a3e1990#file-logout-aspx){:target="_blank"}
   * [Logout.aspx.cs](https://gist.github.com/javafun/ba0340d4cbbcba3e2397cf1d5a3e1990){:target="_blank"}
+  *[Logout.aspx.designer.cs](https://gist.github.com/javafun/ba0340d4cbbcba3e2397cf1d5a3e1990#file-logout-aspx-designer-cs){:target="_blank"}
   * MembershipAccountEdit.ascx
   ![_config.yml]({{ site.baseurl }}/images/episerver-cms-commerce-aspnet-identity/09-override-files.png)
 5. Locate `login.aspx` and `logout.aspx` file under `/Apps/Shell/Pages/` directory, and update the Page directive with your custom one
