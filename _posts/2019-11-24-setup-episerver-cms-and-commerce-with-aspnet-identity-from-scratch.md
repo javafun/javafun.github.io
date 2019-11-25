@@ -61,7 +61,7 @@ In this blog post, I will walk you through from beginning on setup CMS Commerce 
 
 1. Install `EPiServer.CMS.UI.AspNetIdentity` package into the Commerce project. 
 2. Install `EPiServer.ServiceLocation.StructureMap` package into the Commerce project.
-3. Create an Owin startup named [Startup.cs](https://gist.github.com/javafun/a921d94163e327e54154b37de6130b33.) under root of Commerce project.    
+3. Create an Owin startup named [Startup.cs](https://gist.github.com/javafun/a921d94163e327e54154b37de6130b33){:target="_blank"} under root of Commerce project.    
 3. Execute the [SQL script](https://gist.github.com/javafun/ab97de51a74b92566f803624d22c3468){:target="_blank"} will create default user `admin@example.com` with password `store` in AspNet Identity table  
 4. Create `Overrides` folder under root and create the following web form page/control under Overrides folder. Commerce Manager is a legacy WebForm system, and coupled with old ASP.NET membership provider by default. What we're doing here is to create custom version of login/logut page and later in the code-behind file we can overwrite with AspNet Identity implementation.
   * [Login.aspx](https://gist.github.com/javafun/29837dfdd1caa069908af9df1348eea4#file-login-aspx){:target="_blank"}
@@ -121,7 +121,7 @@ In this blog post, I will walk you through from beginning on setup CMS Commerce 
 
 ### Set up AspNet Identity in CMS project
 
-1. Create an Owin startup named [Startup.cs](https://gist.github.com/javafun/dccbbf0c22bd5dbb0902da4e622a09a6) under root of CMS project.    
+1. Create an Owin startup named [Startup.cs](https://gist.github.com/javafun/dccbbf0c22bd5dbb0902da4e622a09a6){:target="_blank"} under root of CMS project.    
 2. Locate `authentication` section in web.config and change mode to `None`  
 3. Locate `membership` section in web.config and replace with the following 
   ```xml
@@ -144,7 +144,7 @@ In this blog post, I will walk you through from beginning on setup CMS Commerce 
 It’s the end, and that’s all you need to do for the setup. Enjoy your Episerver development with ASPNET Identity.
 
 ## References
-* [Set up EPiServer CMS + Commerce in 11 steps](https://javafun.github.io/set-up-episerver-cms-commerce-in-11-steps/)
-* [EPiServer CMS UI AspNetIdentity OWIN authentication](https://world.episerver.com/documentation/developer-guides/CMS/security/episerver-aspnetidentity/)
+* [Set up EPiServer CMS + Commerce in 11 steps](https://javafun.github.io/set-up-episerver-cms-commerce-in-11-steps/){:target="_blank"}
+* [EPiServer CMS UI AspNetIdentity OWIN authentication](https://world.episerver.com/documentation/developer-guides/CMS/security/episerver-aspnetidentity/){:target="_blank"}
 
 Happy Coding! 😇
