@@ -69,10 +69,13 @@ In this blog post, I will walk you through from beginning on setup CMS Commerce 
   * [Login.aspx.designer.cs](https://gist.github.com/javafun/29837dfdd1caa069908af9df1348eea4#file-login-aspx-designer-cs){:target="_blank"}
   * [Logout.aspx](https://gist.github.com/javafun/ba0340d4cbbcba3e2397cf1d5a3e1990#file-logout-aspx){:target="_blank"}
   * [Logout.aspx.cs](https://gist.github.com/javafun/ba0340d4cbbcba3e2397cf1d5a3e1990){:target="_blank"}
-  *[Logout.aspx.designer.cs](https://gist.github.com/javafun/ba0340d4cbbcba3e2397cf1d5a3e1990#file-logout-aspx-designer-cs){:target="_blank"}
-  * MembershipAccountEdit.ascx
+  * [Logout.aspx.designer.cs](https://gist.github.com/javafun/ba0340d4cbbcba3e2397cf1d5a3e1990#file-logout-aspx-designer-cs){:target="_blank"}
+  * [MembershipAccountEdit.ascx](https://gist.github.com/javafun/84ef6c4d7e027a78f2549646cca1d35b#file-membershipaccountedit-ascx){:target="_blank"}
+  * [MembershipAccountEdit.ascx.cs](https://gist.github.com/javafun/84ef6c4d7e027a78f2549646cca1d35b#file-membershipaccountedit-ascx-cs){:target="_blank"}
+  * [MembershipAccountEdit.ascx.designer.cs](https://gist.github.com/javafun/84ef6c4d7e027a78f2549646cca1d35b#file-membershipaccountedit-ascx-designer-cs){:target="_blank"}
+  
   ![_config.yml]({{ site.baseurl }}/images/episerver-cms-commerce-aspnet-identity/09-override-files.png)
-5. Locate `login.aspx` and `logout.aspx` file under `/Apps/Shell/Pages/` directory, and update the Page directive with your custom one
+5. Locate `login.aspx` and `logout.aspx` file under `/Apps/Shell/Pages/` directory, `MembershipAccountEdit.ascx` file under `/Apps/Shell/Customer/Modules`, and update the Page directive with your custom one accordingly.
  ![_config.yml]({{ site.baseurl }}/images/episerver-cms-commerce-aspnet-identity/11-override-login-logout.png) 
   ![_config.yml]({{ site.baseurl }}/images/episerver-cms-commerce-aspnet-identity/12-override-login-logout-2.png)     
 
@@ -100,7 +103,7 @@ In this blog post, I will walk you through from beginning on setup CMS Commerce 
         </system.web>
       </location>  
     ```
-> **NOTES**: This step is important, otherwise you'll get infinite loop when access to commerce manager logi.aspx page.
+> **NOTES**: This step is important, otherwise you'll get infinite redirect loop when access to commerce manager logi.aspx page.
 
 7. Locate `authentication` section in web.config and change mode to `None`
   ![_config.yml]({{ site.baseurl }}/images/episerver-cms-commerce-aspnet-identity/08-authentication-section.png){:width="100%"}
