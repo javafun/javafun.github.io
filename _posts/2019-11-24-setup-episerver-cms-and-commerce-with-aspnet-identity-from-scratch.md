@@ -72,14 +72,16 @@ In this blog post, I will walk you through from beginning on setup CMS Commerce 
   * [Logout.aspx.designer.cs](https://gist.github.com/javafun/ba0340d4cbbcba3e2397cf1d5a3e1990#file-logout-aspx-designer-cs){:target="_blank"}
   * [MembershipAccountEdit.ascx](https://gist.github.com/javafun/84ef6c4d7e027a78f2549646cca1d35b#file-membershipaccountedit-ascx){:target="_blank"}
   * [MembershipAccountEdit.ascx.cs](https://gist.github.com/javafun/84ef6c4d7e027a78f2549646cca1d35b#file-membershipaccountedit-ascx-cs){:target="_blank"}
-  * [MembershipAccountEdit.ascx.designer.cs](https://gist.github.com/javafun/84ef6c4d7e027a78f2549646cca1d35b#file-membershipaccountedit-ascx-designer-cs){:target="_blank"}
-  
-  ![_config.yml]({{ site.baseurl }}/images/episerver-cms-commerce-aspnet-identity/09-override-files.png)
+  * [MembershipAccountEdit.ascx.designer.cs](https://gist.github.com/javafun/84ef6c4d7e027a78f2549646cca1d35b#file-membershipaccountedit-ascx-designer-cs){:target="_blank"}  
+    ![_config.yml]({{ site.baseurl }}/images/episerver-cms-commerce-aspnet-identity/09-override-files.png)
 5. Locate `login.aspx` and `logout.aspx` file under `/Apps/Shell/Pages/` directory, `MembershipAccountEdit.ascx` file under `/Apps/Shell/Customer/Modules`, and update the Page directive with your custom one accordingly.
  ![_config.yml]({{ site.baseurl }}/images/episerver-cms-commerce-aspnet-identity/11-override-login-logout.png) 
   ![_config.yml]({{ site.baseurl }}/images/episerver-cms-commerce-aspnet-identity/12-override-login-logout-2.png)     
 
-6. Add the following `<location>` elements to your Commerce project `web.config`
+6. Add a new Initialization Module file - [IdentityInitialisation.cs](https://gist.github.com/javafun/e03a04b4ff03944b2813d36faf184455){:target="_blank"} under your Commerce Manager root folder. 
+>**NOTES**: This module is primarily used for adding Identity dependencies to IoC container, so in MemberShipAccountEdit user control code-behind, we can  get instance of `ApplicationUserManager` and `ApplicationSignInManager` from ServiceLocation.
+
+7. Add the following `<location>` elements to your Commerce project `web.config`
     ```xml
       <location path="Apps/Shell/Styles">
         <system.web>
