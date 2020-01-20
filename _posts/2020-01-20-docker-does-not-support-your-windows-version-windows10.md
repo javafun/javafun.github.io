@@ -16,11 +16,12 @@ After search on the internet, I found other people had the same issue after upda
 
 The root cause of this issue is my machine `PSModulePath` environment variable got messed up. The entry for `C:\Windows\System32\WindowsPowerShell\v1.0\Modules` was replaced with text `System.String[]`
 ![_config.yml]({{ site.baseurl }}/images/docker-does-not-support/env-variable-mess-up.png)
-![_config.yml]({{ site.baseurl }}/images/docker-does-not-support/env-variable-mess-up-2.png)
+<img src="images/docker-does-not-support/env-variable-mess-up-2.png" width="400" style="display:block"/>
 
 ## Fixes
 The fix is very simple. Open *Environment variables*, edit `PSModulePath` variable under *System variables* section and replace `System.String[]` to `C:\Windows\System32\WindowsPowerShell\v1.0\Modules`. 
-![_config.yml]({{ site.baseurl }}/images/docker-does-not-support/env-variable-fix.png)
+<img src="images/docker-does-not-support/env-variable-fix.png" width="400" style="display:block"/>
+
 
 Launch docker from start menu, my docker is back and running. Hooray!!
 
