@@ -35,6 +35,6 @@ sqllocaldb create MSSQLLocaldb
 
 ## References
 
-(Logon failed for login due to trigger execute)[https://dba.stackexchange.com/questions/218811/logon-failed-for-login-due-to-trigger-execution]
+[Logon failed for login due to trigger execute](https://dba.stackexchange.com/questions/218811/logon-failed-for-login-due-to-trigger-execution)
 
 Happy Coding! 😇
