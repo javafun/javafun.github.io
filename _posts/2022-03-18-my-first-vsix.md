@@ -12,6 +12,8 @@ comments: true
 
 I start using Visual Studio 2022 for my development more frequently this year, especially working on ASP.NET Core project. One of my main pain points to use the newer version of any software is to find the alternative / replacement of something that I'm familiar with. This is extremely important to me as it will impact my productivity a lot. 
 
+
+
 To ensure moving to Visual Studio 2022 successfully, I need to have all my favorite extensions working. Unfortunately, this isn't the case for me this time as one of my favorite extension for Optimizely (formerly Episerver) development hasn't provided update to support for Visual Studio 2022. 
 
 I decide to take this opportunity and use my spare time to create my first extension - [Optimizely Content and Commerce Cloud Templates](https://marketplace.visualstudio.com/items?itemName=VincentYang024.OptiVS2022Tooling). 
