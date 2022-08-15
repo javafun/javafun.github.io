@@ -11,10 +11,11 @@
 	"extensions": [
 		"ginfuru.ginfuru-vscode-jekyll-syntax",
 		"ginfuru.vscode-jekyll-snippets",
-		"yzhang.markdown-all-in-one"
+		"yzhang.markdown-all-in-one",
+		"docsmsft.docs-markdown"
 	],
 	"mounts": [		
-		"source=c:\\Users\\vyan0\\.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}\\.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -23,6 +24,7 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
 	"postCreateCommand": "bundle install",	
+	"postStartCommand": "git config --global --add safe.directory '*'&& git config --global user.email \"mscsharp@gmail.com\" && git config --global user.name \"Vincent Yang\"",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
