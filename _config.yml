@@ -25,7 +25,7 @@ navigation:
   - name: Tags
     url: /tags
 
-# excerpt_separator: <!--more-->
+excerpt_separator: <!--more-->
 
 # Pagination
 paginate: 5
