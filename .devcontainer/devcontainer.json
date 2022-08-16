@@ -9,6 +9,7 @@
 		"args": { "VARIANT": "ubuntu-20.04" }
 	},
 	"extensions": [
+		"christian-kohler.path-intellisense",
 		"ginfuru.ginfuru-vscode-jekyll-syntax",
 		"ginfuru.vscode-jekyll-snippets",
 		"yzhang.markdown-all-in-one",

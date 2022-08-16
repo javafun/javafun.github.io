@@ -15,11 +15,28 @@ My first personal Windows laptop is Dell XPS, which is 10+ years old. It still s
 
 I've been always been always fascinated by the RGB colorful laptop especially with Dell Alienware. 
 
+
+## Install additional SSD
+After some research, I found the SN750 seemed the most power efficient Gen 3 NVMe drive. In addition, the Alienware M15 motherboard limited Gen4 to Gen3 bandwidth, I decide to get WD SN750 1TB Gen 3 NVMe instead. 
+
+I was a bit worried before I recieved the laptop as I've read from internet some people laptops (M15) don't have bracket and heat shield. Fortunately, my one has everything included.
+
+The installation seems pretty intuitive. All I need to do is to unscrew the heat shield, insert the drive in then put the shield back, less than 5 mins job, nice and easy. 
+
+<img src="/images/windows-laptop/IMG_1842.jpeg" width="50%">
+<img src="/images/windows-laptop/IMG_1843.jpeg" width="50%">
+
+## SSD speed test
+
 <img src="/images/windows-laptop/diskspeed-test.png">
 <img src="/images/windows-laptop/wdsn750-speed-test.png">
+
+
 <img src="/images/windows-laptop/cpuz_37rbJKtAax.png">
+<img src="/images/windows-laptop/cpuz_dxyE3bo3jW.png">
 <img src="/images/windows-laptop/cpuz_q24nkSpc4h.png">
 <img src="/images/windows-laptop/cpuz_WDRjQYGobP.png">
+
 
 
 
