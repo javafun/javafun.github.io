@@ -8,7 +8,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/osx.jpg)
-
+<!--more-->
 ## Problem
 
 Yosemite DNS will no longer work with .local domains, the .local domains was not resolved.

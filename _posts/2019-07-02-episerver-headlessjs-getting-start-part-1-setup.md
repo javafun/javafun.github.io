@@ -10,7 +10,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/headlessjs-1/headless.png)
 This is part 1 of Episerver Headless JS blog post series. In this post, I'll try to cover everything you need to get `Content Delivery API` running on your local development from scratch. 
-
+<!--more-->
 
 ## Set up demo instance
 In this demo, I assume you have `Episerver CMS Visual Studio extension` installed already. If not, you first need to install this from Visual Studio extension manager.

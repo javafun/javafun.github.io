@@ -7,7 +7,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/mongodb.png)
-
+<!--more-->
 
 1. Connect to shell by running **mongo**
 2. To create a database, enter **Use**  command in the shell. (The command will create a new database, if it doesn’t exist, otherwise it will return the existing database)

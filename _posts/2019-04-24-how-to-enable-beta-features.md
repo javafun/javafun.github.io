@@ -10,7 +10,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/episerver-new.png)
 As you might know already, Episerver has introduced continuous release process to help the customer quickly get the issue fixed and adopt the new/beta features.
-
+<!--more-->
 By default, some of these features are required to be manually turned on E.g. SerializedCarts. When it's a beta feature, you'll need to ensure the user are in the right user groups as well. I hope this blog post will help you to get them working in your website quickly and make your experience smooth.
 
 

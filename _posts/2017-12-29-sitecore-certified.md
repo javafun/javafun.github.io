@@ -8,7 +8,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/sitecore.png)
 Mission accomplished before the end of year 2017 :)
-
+<!--more-->
 <br/>
 <br/>
 ![_config.yml]({{ site.baseurl }}/images/sitecore-certified/sitecorecertificate.png)

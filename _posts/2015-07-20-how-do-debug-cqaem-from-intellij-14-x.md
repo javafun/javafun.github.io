@@ -8,7 +8,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/intellij.png)
-
+<!--more-->
 ## Set up a Web Facet in the Project
 1. Go to File -> Project Structure
 2. Select the “content” module (the folder contains components,templates)

@@ -8,7 +8,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/git.jpg)
-
+<!--more-->
 The following script will automate svn to git migration. Save this in your svn directory `svn2git.sh`
 
 <script src="https://gist.github.com/javafun/abab170e33e39b3c54715283e0dbacc9.js"></script>

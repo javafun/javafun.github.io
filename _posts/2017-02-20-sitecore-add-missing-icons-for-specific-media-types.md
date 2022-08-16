@@ -8,7 +8,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/sitecore.png)
 Recently, I was trying to save the PDF file in the media library and found this issue. The PDF file used empty icon instead.
-
+<!--more-->
 Luckily, this seems a common issue and solution can be easily googling out. Sitecore has official document in its knowledge base about this issue.
 
 [Missing icons for specific media types](https://kb.sitecore.net/articles/469199)

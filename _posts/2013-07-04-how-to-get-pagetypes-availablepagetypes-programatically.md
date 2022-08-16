@@ -7,7 +7,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/episerver.png)
-
+<!--more-->
 ## Find page type’s available types
 ```csharp
 IAvailablePageTypes availablePageTypes = ServiceLocator.Current.GetInstance<IAvailablePageTypes>();

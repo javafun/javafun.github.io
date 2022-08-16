@@ -8,7 +8,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/docker.png)
-
+<!--more-->
 ## Dockerfile 
 
 ```docker

@@ -7,6 +7,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/tfs-training.png)
+<!--more-->
 ## Prerequisite
 * Azure account
 * TFS 2017 (Trial)

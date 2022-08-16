@@ -9,6 +9,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/vscode.png)
 Since from last year, I slowly switch most of my daily development utilities from stable to beta version to enjoy the latest features and earlier bug fixes. So far, the experience is not that bad comparing to use stable version. Most of the utilities are able to install side by side without too much impact on my daily usage except `Visual Studio Code Insiders`. In this short blog post, I'll show you my way to shorten the terminal command on both Windows and OSX.  
+<!--more-->
 
 Before you start to tweak the alias, you first need to make sure install code-insiders command in PATH. Start Visual Studio Insiders, Open `Command Palette` from view menu
 

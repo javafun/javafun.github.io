@@ -8,7 +8,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/osx.jpg)
 Today when I upgrade my outdated packages with Homebrew and encounter this nasty error. 
-
+<!--more-->
 
 ## Symptom
 `Error: glib: undefined method 'uses_from_macos' for Formulary::FormulaNamespace1b33d7b036781a8c4dc38a980a07e0d5::Glib:Class`

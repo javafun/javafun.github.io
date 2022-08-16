@@ -10,7 +10,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/sitecore.png)
 Recently, I was trying to enable to log the fatal errors by email using Sitecore log framework. 
-
+<!--more-->
 
 
 I thought this would be a simple task that only requires a few configuration changes as I remembered that `Sitecore.Logging` use log4net by default and I have been used `log4net` for many years, I am very confident with log4net configuration. It turns out it is not, absolutely not. 

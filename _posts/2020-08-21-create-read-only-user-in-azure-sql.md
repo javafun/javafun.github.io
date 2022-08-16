@@ -6,9 +6,9 @@ tags:
 comments: true
 ---
 
-![_config.yml]({{ site.baseurl }}/images/azure-sql.jpg)
+![_config.yml]({{ site.baseurl }}/images/azure-sql.jpg ){:width="50%"}
 One of my colleagues asked me how to create a read-only user for a particular database in Azure SQL, I thought it would be similar process as how I did in SQL server. As it turned out, it wasn't really straightforward. I decide to share my learning in this blog post.  
-
+<!--more-->
 
 ## Step 1
 

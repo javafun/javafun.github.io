@@ -11,6 +11,8 @@ comments: true
 
 This Monday, I finally completed the setup and upgrade for my new toy. This is my second personal Windows laptop after 10 years with Mac. 
 
+<!--more-->
+
 My first personal Windows laptop is Dell XPS, which is 10+ years old. It still services enough for our cousin. It's a bit hard decision to go back to Windows laptop again after being on Mac for very long time. 
 
 I've been always been always fascinated by the RGB colorful laptop especially with Dell Alienware. 

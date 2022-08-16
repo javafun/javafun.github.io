@@ -8,6 +8,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/localdb-logonfailed/IHXCB.jpg)
 I encountered an issue - `Logon failed for login 'xx\xxx' due to trigger execution` today when I tested my local site. I expanded details from SSMS to investigate with no luck. I tried to re-install SQL 2019 localdb, reverted back to old version of localdb, none of them fixed my issue. 
+<!--more-->
 
 <img src="/images/localdb-logonfailed/PWVB2.jpg" width="700" style="display:block"/>
 

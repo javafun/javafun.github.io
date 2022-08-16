@@ -9,7 +9,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/umbraco.png)
 I recently helped my client adding some features in his existing umbraco solution. 
-
+<!--more-->
 I decide to use umbraco dropdown list data type to store pre-defined values for some properties and display as dropdown list on the frontend. It took me a bit time to figure out how to pull out the pre-defined values from umbraco for the dropdown list and I would like to take this opportunity to share my implementation.  
 
 

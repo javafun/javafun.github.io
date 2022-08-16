@@ -7,7 +7,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/jenkins.png)
-
+<!--more-->
 ## Prerequisite
 
 * JAVA JDK 7 or above

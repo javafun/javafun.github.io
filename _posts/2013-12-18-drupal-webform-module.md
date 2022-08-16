@@ -8,7 +8,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/drupal.png)
-
+<!--more-->
 ## Installation
 
 Drush

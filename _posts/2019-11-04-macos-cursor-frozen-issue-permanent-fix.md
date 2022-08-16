@@ -8,7 +8,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/osx.jpg)
 How many time does your cursor freeze and become unresponsive while you're doing something on your Mac? Have you tried many solutions without any luck? I hope once you read this post and apply the fix, this issue should be gone away forever!
-
+<!--more-->
 
 ## Symptom
 Your Mac cursor would either freeze/become unresponsive/disappear totally when you launch an app.

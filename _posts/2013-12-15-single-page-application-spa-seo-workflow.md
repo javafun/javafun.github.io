@@ -8,7 +8,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/seo.jpg)
-
+<!--more-->
 <br/>
 <br/>
 

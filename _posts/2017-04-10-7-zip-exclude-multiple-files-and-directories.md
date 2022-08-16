@@ -7,7 +7,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/7zip.png)
-
+<!--more-->
 ## Argument list
 
 * a – Add to archive

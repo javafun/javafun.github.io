@@ -10,7 +10,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/episerver-new.png)
 Recently I helped one of customers to implement profile tracking and perform recommendation for their B2B solution built on Episerver ecommerce platform. I found an issue during the implementation I would like to share in this post.
-
+<!--more-->
 
 ## Summary
 

@@ -8,7 +8,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/sitecore.png)
 My demo app came up with this issue after making some changes to patch config file today.
-
+<!--more-->
 > Reader is in incorrect state 
 > Description: An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
 

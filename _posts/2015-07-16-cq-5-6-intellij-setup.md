@@ -8,7 +8,7 @@ comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/intellij.png)
-
+<!--more-->
 Follow the link below to if you set up a project from scratch https://github.com/javafun/CQ561_POM#purpose–demonstration 
 
 If the intellisense doesn’t work, make sure you have included the following artifact in the POM.xml

@@ -9,6 +9,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/episerver-new.png)
 Back to 2015, I wrote a blog post - [Set up EPiServer CMS + Commerce in 11 steps](https://javafun.github.io/set-up-episerver-cms-commerce-in-11-steps/){:target="_blank"} based on Episerver version 9. After 4 years, the setup steps still largely remain the same if you want to use default aspnet membership. Thanks to Episerver product development team great work to keep the platform upgrade and maintain the backward compabilities. 
+<!--more-->
 
 In this blog post, I will walk you through from beginning on setup CMS Commerce first, then follow by setup identity on both Commerce manager and CMS. If you're already familiar with CMS and Commerce setup, you can skip [Set up CMS project with Commerce](#set-up-cms-project-with-commerce), [Set up Commerce project (Commerce manager)](#set-up-commerce-project-commerce-manager) and jump to [Set up AspNet Identity in Commerce project](#set-up-aspnet-identity-in-commerce-manager-project), [Set up ASpNet Identity in CMS project](#set-up-aspnet-identity-in-cms-project) directly.
 

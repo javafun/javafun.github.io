@@ -8,6 +8,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/docker.png)
 Today, I receive an update after start docker on my laptop. After update finish, I encounter `Docker doesn't support your windows version. Check documentation for minimum requirements` error.
+<!--more-->
 
 <img src="/images/docker-does-not-support/docker-does-not-support-windows-version-error.png" width="600" style="display:block"/>
 

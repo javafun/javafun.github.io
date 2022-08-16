@@ -9,7 +9,7 @@ comments: true
 
 ![_config.yml]({{ site.baseurl }}/images/sitecore.png)
 When you are working on the CMS solution, the solution design and architecture can be very different, that caused writing and maintaining the uint tests be even more difficult than bespoke solution.
-
+<!--more-->
 A typical example of this is at some point your code calls the Sitecore API, how do you ensure your code is working when the code has related to external dependencies that you can’t remove?
 
 Thanks for Sitecore FakeDb, it makes that happen and a lot simpler to write the unit tests on this CMS plateform. In the following sections, I will assume you are a Sitecore developer with passion of writing the unit tests.
