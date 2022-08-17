@@ -14,7 +14,7 @@ I finally completed the setup and upgrade for my new toy this Monday - `Dell Ali
 <!--more-->
 
 
-My last Windows laptop is Dell XPS, which is 10+ years old. It's still healthy and providing enough power for our cousin to complete daily work. I've been always been always fascinated by the RGB colorful laptop especially with Dell Alienware, so I decide to give it a try. 
+My last Windows laptop is Dell XPS, which is 10+ years old. It's still healthy and providing enough power for our cousin to complete daily work. I've been always fascinated by the RGB colorful laptop especially with Dell Alienware, so I decide to give it a try. 
 
 
 ## Install additional SSD
