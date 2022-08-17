@@ -30,6 +30,7 @@ excerpt_separator: <!--more-->
 # Pagination
 paginate: 5
 
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   behance: # https://www.behance.net/<username>
