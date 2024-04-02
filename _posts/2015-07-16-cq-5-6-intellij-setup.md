@@ -5,21 +5,24 @@ tags:
   - intellij 14
   - adobe cq
 comments: true
+image:
+  path: /images/intellij.png
 ---
 
-![_config.yml]({{ site.baseurl }}/images/intellij.png)
+<!-- ![_config.yml]({{ site.baseurl }}/images/intellij.png) -->
 <!--more-->
-Follow the link below to if you set up a project from scratch https://github.com/javafun/CQ561_POM#purpose–demonstration 
+
+Follow the link below to if you set up a project from scratch https://github.com/javafun/CQ561_POM#purpose–demonstration
 
 If the intellisense doesn’t work, make sure you have included the following artifact in the POM.xml
 
-* com.day.cq.wcm
-* cq-wcm-taglib
+- com.day.cq.wcm
+- cq-wcm-taglib
 
 You also need to include the cq taglib prefix and
 
 ![_config.yml]({{ site.baseurl }}/images/intellij-debugcq/snip20150716_7.png)
 
-You also need to make sure the pom file marked as Maven project. 
+You also need to make sure the pom file marked as Maven project.
 
 Happy Coding! 😇

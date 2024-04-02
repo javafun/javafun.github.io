@@ -5,9 +5,11 @@ tags:
   - seo
   - spa
 comments: true
+image:
+  path: /images/seo.jpg
 ---
 
-![_config.yml]({{ site.baseurl }}/images/seo.jpg)
+<!-- ![_config.yml]({{ site.baseurl }}/images/seo.jpg) -->
 <!--more-->
 <br/>
 <br/>
@@ -18,7 +20,5 @@ comments: true
 <br/>
 
 ![_config.yml]({{ site.baseurl }}/images/spa-seo/spa-seo.png)
-
-
 
 Happy Coding! 😇

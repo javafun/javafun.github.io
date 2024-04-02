@@ -32,6 +32,6 @@
 	"remoteUser": "vscode",
 	"features": {
 		"git": "latest",
-		"ruby": "2.7"
+		"ruby": "3.3"
 	}
 }

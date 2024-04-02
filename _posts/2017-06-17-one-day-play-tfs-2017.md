@@ -1,18 +1,23 @@
 ---
 layout: post
 title: One day Play – Create a TFS 2017 Instance On Azure Virtual Machine
-tags:  
+tags:
   - tfs
 comments: true
+image:
+  path: /images/tfs-training.png
 ---
 
-![_config.yml]({{ site.baseurl }}/images/tfs-training.png)
+<!-- ![_config.yml]({{ site.baseurl }}/images/tfs-training.png) -->
+
 <!--more-->
+
 ## Prerequisite
-* Azure account
-* TFS 2017 (Trial)
-* SQL Server 2012 and above (SQL Express is fine for demo and self play)
-* Domain Name (there are many free domain register provider nowadays, see more details later)
+
+- Azure account
+- TFS 2017 (Trial)
+- SQL Server 2012 and above (SQL Express is fine for demo and self play)
+- Domain Name (there are many free domain register provider nowadays, see more details later)
 
 ### Step 1 – Spin up VM
 
@@ -24,12 +29,9 @@ Sign up a free Azure account, then spin up a VM with Windows 2016 Data Centre im
 
 Make sure you add both HTTP and HTTPS in the _Inbound security rules_, so we can later access from external.
 
-
 ![_config.yml]({{ site.baseurl }}/images/tfs-play/35356822765_babe14dedd_b.jpg)
 
-
 ### Step 3 – SQL Server and TFS Installation
-
 
 Download SQL Server 2016 Express installer (5MB) from the link below, then follow the instruction and install with default settings.
 
@@ -43,11 +45,9 @@ By default, TFS will be running on port 8080. In this example, my TFS web url is
 
 http://tfsdemo:8080/tfs
 
-Open you your TFS site in IE, make sure you can see the TFS homepage 
-
+Open you your TFS site in IE, make sure you can see the TFS homepage
 
 ![_config.yml]({{ site.baseurl }}/images/tfs-play/34515273894_5cc6b5408b_b.jpg)
-
 
 ### Step 4 – Register a free domain name
 
@@ -57,17 +57,13 @@ After a quick search, I found http://www.freenom.com/ that seems good enough and
 
 Once you logged in to the site, you can access to your domain management from Services menu.
 
-
 ![_config.yml]({{ site.baseurl }}/images/tfs-play/34515585464_ba0b805f16.jpg)
 
 ![_config.yml]({{ site.baseurl }}/images/tfs-play/34547463483_ea1d7d9213_b.jpg)
 
-
 Before set up your DNS, you will need to get the virtual machine public IP from Azure portal
 
-
 ![_config.yml]({{ site.baseurl }}/images/tfs-play/35358685615_415939d95b_b.jpg)
-
 
 In the DNS management screen, put the public IP in the target for A record.
 
@@ -79,10 +75,9 @@ Open the IIS, first disable the Default Website,then locate to Team Foundation S
 
 Port: 80
 
-Host Name:  <The one your registered in step 4>
+Host Name: <The one your registered in step 4>
 
 ![_config.yml]({{ site.baseurl }}/images/tfs-play/35358386405_391ed32d47_b.jpg)
-
 
 ### Step 6 – Update the TFS public url
 
@@ -90,9 +85,7 @@ You can change the TFS public url via TFS Admin console.
 
 ![_config.yml]({{ site.baseurl }}/images/tfs-play/35358354835_e490f33ee1_b.jpg)
 
-
-> TIPS: If you try to test the new public url from TFS server, you will be prompted to enter username and password, but I couldn’t manage to log in successfully. I can’t figure out what caused this.  If you want to access the TFS on its server, you’ll need to continue using your the local url with port 8080.
-
+> TIPS: If you try to test the new public url from TFS server, you will be prompted to enter username and password, but I couldn’t manage to log in successfully. I can’t figure out what caused this. If you want to access the TFS on its server, you’ll need to continue using your the local url with port 8080.
 
 Congratulation, you have completed everything, and your TFS server is now publicly available.
 

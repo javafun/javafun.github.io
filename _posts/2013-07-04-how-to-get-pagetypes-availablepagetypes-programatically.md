@@ -4,11 +4,16 @@ title: How to get pagetype’s AvailablePageTypes programatically?
 tags:
   - episerver
 comments: true
+image:
+  path: /images/episerver.png
 ---
 
-![_config.yml]({{ site.baseurl }}/images/episerver.png)
+<!-- ![_config.yml]({{ site.baseurl }}/images/episerver.png) -->
+
 <!--more-->
+
 ## Find page type’s available types
+
 ```csharp
 IAvailablePageTypes availablePageTypes = ServiceLocator.Current.GetInstance<IAvailablePageTypes>();
 AvailableSetting setting = availablePageTypes.GetSetting(this.Name);
@@ -28,9 +33,5 @@ You have to use `include` property not `includeon` property on your page type, o
 
 http://world.episerver.com/Modules/Forum/Pages/Thread.aspx?id=72917&epslanguage=en
 http://cjsharp.com/blog/2013/04/11/a-closer-look-at-the-availablepagetypes-attribute-in-episerver-7/
-
-
-
-
 
 Happy Coding! 😇

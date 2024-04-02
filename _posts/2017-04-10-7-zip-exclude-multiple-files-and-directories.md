@@ -1,24 +1,28 @@
 ---
 layout: post
 title: 7 Zip exclude multiple files and directories
-tags:  
+tags:
   - 7zip
 comments: true
+image:
+  path: /images/7zip.png
 ---
 
-![_config.yml]({{ site.baseurl }}/images/7zip.png)
+<!-- ![_config.yml]({{ site.baseurl }}/images/7zip.png) -->
+
 <!--more-->
+
 ## Argument list
 
-* a – Add to archive
+- a – Add to archive
 
-* t7z – type of archive, in this example, it uses 7z
+- t7z – type of archive, in this example, it uses 7z
 
-* xr@ – specify the exclusion list.
+- xr@ – specify the exclusion list.
 
 ## Examples
 
-Adds to the archive.7z all files from Folder1 and its subfolders, except *.png files.
+Adds to the archive.7z all files from Folder1 and its subfolders, except \*.png files.
 
 ```
 7z a archive.7z Folder1\ -xr!*.png

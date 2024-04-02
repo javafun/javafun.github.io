@@ -5,11 +5,15 @@ tags:
   - intellij 14
   - adobe cq
 comments: true
+image:
+  path: /images/intellij.png
 ---
 
-![_config.yml]({{ site.baseurl }}/images/intellij.png)
+<!-- ![_config.yml]({{ site.baseurl }}/images/intellij.png) -->
 <!--more-->
+
 ## Set up a Web Facet in the Project
+
 1. Go to File -> Project Structure
 2. Select the “content” module (the folder contains components,templates)
 3. Click “+” above the list of modules and select “Web”
@@ -21,13 +25,12 @@ comments: true
 2. Give the debugger a name CQ, remove any Before Launch steps (as we are not really building anything)
 3. Add Application server Generic, any start page say Geometrixx English and leave everything default
 4. Click on tab Startup/Connection, Debug. Change the port number or leave it default (in the below pic it was changed to 8000)
-    ![_config.yml]({{ site.baseurl }}/images/intellij-debugcq/snip20150720_14.png)
+   ![_config.yml]({{ site.baseurl }}/images/intellij-debugcq/snip20150720_14.png)
 5. Restart the CQ instance with the following parameters
-    ```java
+   `java
 java -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,suspend=n,server=y -XX:MaxPermSize=512m -Xmx1024M -jar cq-author-4502.jar -nofork    
-    ```
+    `
 6. Click “Debug” icon to start the debugger from Intellij
-    ![_config.yml]({{ site.baseurl }}/images/intellij-debugcq/snip20150720_16.png)
-
+   ![_config.yml]({{ site.baseurl }}/images/intellij-debugcq/snip20150720_16.png)
 
 Happy Coding! 😇

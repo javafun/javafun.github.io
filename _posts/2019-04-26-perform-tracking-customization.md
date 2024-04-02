@@ -6,10 +6,14 @@ tags:
   - episerver commerce
   - episerver perform
 comments: true
+image:
+  path: /images/episerver-new.png
 ---
 
-![_config.yml]({{ site.baseurl }}/images/episerver-new.png)
+<!-- ![_config.yml]({{ site.baseurl }}/images/episerver-new.png) -->
+
 Recently I helped one of customers to implement profile tracking and perform recommendation for their B2B solution built on Episerver ecommerce platform. I found an issue during the implementation I would like to share in this post.
+
 <!--more-->
 
 ## Summary
@@ -24,8 +28,8 @@ For the perform integration, I choose the [Server side API integration](https://
 
 When creates the `TrackingData` object with `TrackingDataFactory` class, the following methods require the `Cart` object, and by default it will load the cart with `Default` cart name.
 
-* CreateCartTrackingData
-* CreateCheckoutTrackingData
+- CreateCartTrackingData
+- CreateCheckoutTrackingData
 
 ```c#
 
@@ -49,7 +53,7 @@ When creates the `TrackingData` object with `TrackingDataFactory` class, the fol
                 return null;
             }
             return new CheckoutTrackingData(GetCartDataItems(currentCart), currentCart.Currency.CurrencyCode, currentCart.GetSubTotal(_orderGroupCalculator).Amount, currentCart.GetShippingSubTotal(_orderGroupCalculator).Amount, currentCart.GetTotal(_orderGroupCalculator).Amount, _languageResolver.GetPreferredCulture().Name, GetRequestData(httpContext), GetCommerceUserData(httpContext));
-        }              
+        }
 
         protected virtual IOrderGroup GetCurrentCart()
         {
@@ -59,8 +63,8 @@ When creates the `TrackingData` object with `TrackingDataFactory` class, the fol
 ```
 
 ## Solution
-In order to load the custom cart, we'll need to replace the default implementation of `GetCurrentCart()` behavior. Luckily, Episerver has already thought about this needs and provided the capability to override `GetCurrentCart()` implementation. To fix the issue, I have to create overloaded methods for both `CheckoutTrackingData` and `CartTrackingData` to be able to receive the `CustomerId` in order to customize the cart name. Finally, in the calling method, use the overloaded methods instead of the default one. 
 
+In order to load the custom cart, we'll need to replace the default implementation of `GetCurrentCart()` behavior. Luckily, Episerver has already thought about this needs and provided the capability to override `GetCurrentCart()` implementation. To fix the issue, I have to create overloaded methods for both `CheckoutTrackingData` and `CartTrackingData` to be able to receive the `CustomerId` in order to customize the cart name. Finally, in the calling method, use the overloaded methods instead of the default one.
 
 ```c#
     public class CustomTrackingDataFactory : TrackingDataFactory
@@ -89,6 +93,5 @@ In order to load the custom cart, we'll need to replace the default implementati
 ## Reference
 
 [Recommendations API overview](https://world.episerver.com/documentation/developer-guides/commerce/personalization/recommendations/an-API-overview/)
-
 
 Happy Coding! 😇

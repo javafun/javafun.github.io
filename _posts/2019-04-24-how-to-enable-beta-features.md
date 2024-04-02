@@ -6,24 +6,27 @@ tags:
   - beta feature
   - episerver commerce
 comments: true
+image:
+  path: /images/episerver-new.png
 ---
 
-![_config.yml]({{ site.baseurl }}/images/episerver-new.png)
-As you might know already, Episerver has introduced continuous release process to help the customer quickly get the issue fixed and adopt the new/beta features.
-<!--more-->
-By default, some of these features are required to be manually turned on E.g. SerializedCarts. When it's a beta feature, you'll need to ensure the user are in the right user groups as well. I hope this blog post will help you to get them working in your website quickly and make your experience smooth.
+<!-- ![_config.yml]({{ site.baseurl }}/images/episerver-new.png) -->
 
+As you might know already, Episerver has introduced continuous release process to help the customer quickly get the issue fixed and adopt the new/beta features.
+
+<!--more-->
+
+By default, some of these features are required to be manually turned on E.g. SerializedCarts. When it's a beta feature, you'll need to ensure the user are in the right user groups as well. I hope this blog post will help you to get them working in your website quickly and make your experience smooth.
 
 So far, there are two scenarios I had been through since Episerver introduced continous release process.
 
 ### Scenario 1 - Released feature
 
+`Serializable Cart` feature has been introduced since **10.2.0**. I won't cover details of this feature here, you can check out the links in the [Reference](#reference) section to get more details.
 
-`Serializable Cart` feature has been introduced since **10.2.0**. I won't cover details of this feature here, you can check out the links in the [Reference](#reference) section to get more details. 
+By default it is enabled for a new installation and disabled for an upgraded site.
 
-By default it is enabled for a new installation and disabled for an upgraded site. 
-
-To enable this feature within your site, you have two options 
+To enable this feature within your site, you have two options
 
 #### Option 1 - Configuration
 
@@ -34,6 +37,7 @@ Add the following to `ecf.app.config` file (**CMS solution, not CommerceManager*
   <add feature="SerializedCarts" state="Enabled" type="Mediachase.Commerce.Core.Features.SerializedCarts,Mediachase.Commerce" />
 </Features>
 ```
+
 #### Option 2 - Programmatically
 
 Add the following to your `InitializeModule` class
@@ -52,17 +56,15 @@ _(New CSR UI)_
 
 By default, all beta features are hidden to prevent unintentional use. To work with Beta features, you need a role defined with the name `EPiBetaUsers`
 
-
 To enable this beta feature within your site, you first need to add the following to `ecf.app.config` file (**CMS solution, not CommerceManager**)
 
 ```xml
   <Features>
     <add feature="CustomerServiceUI" state="Enabled" type="EPiServer.Commerce.UI.CustomerService.Features.CustomerServiceUI, EPiServer.Commerce.UI.CustomerService" />
   </Features>
-  ```
+```
 
 Secondly, you can either by adding a virtual roles in the `virtual role` section of the configuration or by creating a role in admin view. Then you add the users to this role. (**NOTE**: Added users to new role, you must log out and in again to see the Beta feature)
-
 
 ```xml
 <episerver.framework>
@@ -73,7 +75,7 @@ Secondly, you can either by adding a virtual roles in the `virtual role` section
         <!-- other roles -->
         <add name="EPiBetaUsers" type="EPiServer.Security.MappedRole, EPiServer.Framework" roles="WebAdmins, Administrators" mode="Any" />
       </providers>
-    </virtualRoles>   
+    </virtualRoles>
   </episerver.framework>
 ```
 
@@ -95,9 +97,6 @@ _(Creating a role in admin view)_
 
 [Benchmarking Episerver serializable carts](https://world.episerver.com/blogs/andreas-j/dates/2017/6/benchmarking-episerver-serializable-carts2/)
 
-
 [Introducing SerializableCart mode](https://world.episerver.com/blogs/Son-Do/Dates/2017/1/introduce-serializablecart-mode/)
-
-
 
 Happy Coding! 😇

@@ -5,14 +5,17 @@ tags:
   - umbraco
   - umbraco 7.12.4
 comments: true
+image:
+  path: /images/umbraco.png
 ---
 
-![_config.yml]({{ site.baseurl }}/images/umbraco.png)
-I recently helped my client adding some features in his existing umbraco solution. 
+<!-- ![_config.yml]({{ site.baseurl }}/images/umbraco.png) -->
+
+I recently helped my client adding some features in his existing umbraco solution.
+
 <!--more-->
-I decide to use umbraco dropdown list data type to store pre-defined values for some properties and display as dropdown list on the frontend. It took me a bit time to figure out how to pull out the pre-defined values from umbraco for the dropdown list and I would like to take this opportunity to share my implementation.  
 
-
+I decide to use umbraco dropdown list data type to store pre-defined values for some properties and display as dropdown list on the frontend. It took me a bit time to figure out how to pull out the pre-defined values from umbraco for the dropdown list and I would like to take this opportunity to share my implementation.
 
 ```c#
     using Umbraco.Core;
@@ -21,9 +24,9 @@ I decide to use umbraco dropdown list data type to store pre-defined values for 
     public class UmbracoContentServiceExtensions
     {
         /// <summary>
-        /// Getting prevalues for dropdown lists in Umbraco. 
+        /// Getting prevalues for dropdown lists in Umbraco.
         /// </summary>
-        /// <param name="dataTypeDefinitionName">Data type definition name 
+        /// <param name="dataTypeDefinitionName">Data type definition name
         /// (You can get the data type name from the backoffice under developer -> datatypes)</param>
         /// <returns>A collection of <see cref="IEnumerable{PreValue}"/></returns>
         public static IEnumerable<PreValue> GetDropDropListPrevalues(string dataTypeDefinitionName)
@@ -50,8 +53,5 @@ I decide to use umbraco dropdown list data type to store pre-defined values for 
     }
 
 ```
-
-
-
 
 Happy Coding! 😇

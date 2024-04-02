@@ -5,11 +5,16 @@ tags:
   - sitecore
   - url rewrite
 comments: true
+image:
+  path: /images/sitecore.png
 ---
 
-![_config.yml]({{ site.baseurl }}/images/sitecore.png)
-List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to one of the project. 
+<!-- ![_config.yml]({{ site.baseurl }}/images/sitecore.png) -->
+
+List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to one of the project.
+
 <!--more-->
+
 ## SEO rewrite rules
 
 ### Lower case
@@ -26,6 +31,7 @@ List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to on
 ```
 
 ### Redirect to HTTPS
+
 ```xml
 <rule name="HTTP to HTTPS redirect" stopProcessing="true">
   <match url="(.*)" />
@@ -48,7 +54,7 @@ List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to on
 </rule>
 ```
 
-### Add strict transport security 
+### Add strict transport security
 
 ```xml
 <rule name="Add Strict-Transport-Security when HTTPS" enabled="true">
@@ -60,6 +66,5 @@ List of Sitecore SEO / Security rewrite rules I recently added on CD nodes to on
   <action type="Rewrite" value="max-age=31536000" />
 </rule>
 ```
-
 
 Happy Coding! 😇

@@ -5,11 +5,15 @@ tags:
   - docker
   - adobe cq
 comments: true
+image:
+  path: /images/docker.png
 ---
 
-![_config.yml]({{ site.baseurl }}/images/docker.png)
+<!-- ![_config.yml]({{ site.baseurl }}/images/docker.png) -->
+
 <!--more-->
-## Dockerfile 
+
+## Dockerfile
 
 ```docker
 FROM centos
