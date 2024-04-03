@@ -2,6 +2,8 @@
 layout: post
 title: My first Visual Studio 2022 extension
 tags:
+  - optimizely
+  - optimizely cms
   - Optimizely content cloud
   - Optimizely commerce cloud
   - VSIX
