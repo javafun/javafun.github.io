@@ -6,7 +6,6 @@ tags:
   - optimizely cms
   - optimizely cms 12
 comments: true
-author: javafun
 image:
   path: /images/cms_with_app.png
 ---
