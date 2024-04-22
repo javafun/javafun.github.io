@@ -37,7 +37,6 @@ public class FormUploadFile : MediaData
 ## Reference
 
 * [Form element types](https://support.optimizely.com/hc/en-us/articles/4413192345101-Form-element-types){:target="_blank"}
-
 * [Configure Optimizely Form](https://docs.developers.optimizely.com/content-management-system/v1.2.0-forms/docs/configuring-optimizely-forms){:target="_blank"}
 * [Media types and templates](https://docs.developers.optimizely.com/content-management-system/docs/media-types-and-templates){:target="_blank"}
 
